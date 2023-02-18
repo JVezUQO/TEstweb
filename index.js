@@ -5,8 +5,8 @@ function abc(){
         const content = html;
         console.log(content);
    
-        document.getElementsByClassName("import").innerHTML += content;
-   
+        const importeur=document.getElementsByClassName("import") 
+        importeur.innerHTML += content;  
     })
 
 
