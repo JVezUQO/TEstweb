@@ -5,7 +5,7 @@ function abc(){
         const content = html;
         console.log(content);
    
-        const importeur=document.getElementsId("test").innerHTML = content;
+        const importeur=document.getElementById("test").innerHTML = content;
     })
 
 
