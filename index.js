@@ -3,6 +3,9 @@ function abc(){
     .then(html => {
         const content = html;
         console.log(html);
+   
+        document.getElementsByClassName("uno") =+ html;
+   
     })
 
 
