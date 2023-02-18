@@ -1,9 +1,9 @@
 function abc(){
     fetch("page2.html")
-    .then(answer => answer.text())
+    .then(response => response.text())
     .then(html => {
         const content = html;
-        console.log(html);
+        console.log(content);
    
         document.getElementsByClassName("import") =+ html;
    
