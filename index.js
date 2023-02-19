@@ -7,7 +7,14 @@ function abc(){
    
         const importeur=document.getElementById("test").innerHTML = content;
     })
-
-
+    fetch("page2.html")
+    .then(responsecss => responsecss.text())
+    .then(css => {
+        const contentcss = css;
+        console.log(contentcss);
+       
+        const importeurcss=document.getElementById("test").innerHTML = content;
+        })
+    
 
 }
