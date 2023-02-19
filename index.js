@@ -7,7 +7,7 @@ function abc(){
    
         const importeur=document.getElementById("test").innerHTML = content;
     })
-    fetch("page2.html")
+    fetch("page2.css")
     .then(responsecss => responsecss.text())
     .then(css => {
         const contentcss = css;
