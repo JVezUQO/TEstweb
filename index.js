@@ -13,7 +13,7 @@ function abc(){
         const contentcss = css;
         console.log(contentcss);
        
-        const importeurcss=document.getElementById("test").innerHTML = contentcss;
+        const importeurcss=document.getElementById("test").style = contentcss;
         })
     
 
